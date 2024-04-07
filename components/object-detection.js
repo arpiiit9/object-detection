@@ -12,7 +12,7 @@ const ObjectDetection = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const webcamRef = useRef(null);
-  const canvasRef = useRef(null);
+  const canvasRef = useRef(null) ;
 
   async function runCoco() {
     setIsLoading(true); // Set loading state to true when model loading starts
